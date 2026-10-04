@@ -4,9 +4,9 @@ A personal, non-commercial companion app for TIDAL, built around queue control, 
 
 **Ola is not made by, endorsed by or affiliated with TIDAL or Last.fm.** You need your own TIDAL subscription, and your own TIDAL and Last.fm developer credentials, to use it.
 
-<!-- EDIT: replace YOUR-USERNAME with your GitHub username -->
-**Live app:** https://NicoDemo-3.github.io/ola/
-**Privacy notice:** https://NicoDemo-3.github.io/ola/privacy.html
+
+[**Live app**](https://NicoDemo-3.github.io/ola/ola.html)
+[**Privacy notice**](https://NicoDemo-3.github.io/ola/privacy.html)
 
 ---
 
@@ -56,7 +56,7 @@ Ola is a single HTML file with no build step and no server. These steps use only
 ### 1. Host it on GitHub Pages
 1. Fork this repository, or create a new public repository and upload `ola.html` and `privacy.html`.
 2. Go to **Settings > Pages**, choose **Deploy from a branch**, then **main** and **/ (root)**, and save.
-3. After a minute or two your copy is live at `https://YOUR-USERNAME.github.io/REPOSITORY-NAME/`.
+3. After a minute or two your copy is live at `https://github.com/NicoDemo-3/Ola/`.
 
 ### 2. Register a TIDAL app
 1. Log in at [developer.tidal.com](https://developer.tidal.com) and create an app in the dashboard.
