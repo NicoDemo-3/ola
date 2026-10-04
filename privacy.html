@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ola privacy notice</title>
+<style>
+:root{--bg:#F1F8F7;--text:#0A2730;--muted:#4A6670;--accent:#0B8378;--line:#CFE2DF;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#04141C;--text:#EAF6F6;--muted:#9DB8BC;--accent:#3FD9C9;--line:#1C3A45;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  padding:calc(env(safe-area-inset-top,0px) + 24px) 20px calc(env(safe-area-inset-bottom,0px) + 40px)}
+main{max-width:680px;margin:0 auto}
+h1{font-size:2rem;line-height:1.15;margin:0 0 6px;letter-spacing:-.02em}
+h2{font-size:1.2rem;margin:32px 0 8px;padding-top:18px;border-top:1px solid var(--line)}
+p,li{max-width:65ch}
+ul{padding-left:1.2em}
+li{margin:4px 0}
+.meta{color:var(--muted);margin:0 0 20px}
+a{color:var(--accent)}
+.box{border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:16px 0}
+.box p{margin:0}
+</style>
+</head>
+<body>
+<main>
+<h1>Ola privacy notice</h1>
+<!-- EDIT: replace the name and contact email below -->
+<p class="meta">Last updated 4 October 2026. Ola is a personal, non-commercial project by [Your name]. Contact: [your email address].</p>
+
+<div class="box"><p><strong>In short:</strong> Ola has no server, no accounts of its own, no analytics and no ads. Everything Ola keeps is stored in your browser on your own device. Ola only talks to TIDAL, and to Last.fm if you connect it, to do what you ask.</p></div>
+
+<p>Ola is not made by, endorsed by or affiliated with TIDAL or Last.fm.</p>
+
+<h2>What Ola stores on your device</h2>
+<p>Ola saves the following in your browser's local storage, on your device only:</p>
+<ul>
+  <li><strong>TIDAL sign-in:</strong> the access and refresh tokens TIDAL gives Ola when you sign in, and the client ID you enter.</li>
+  <li><strong>Your TIDAL library, cached:</strong> track, album and artist names, cover art and artist picture links, and your playlists and liked tracks, so Ola opens quickly. This cache expires after 30 days and is refreshed from TIDAL each time you open Ola.</li>
+  <li><strong>Last.fm connection, if you use it:</strong> your Last.fm username, API key, shared secret and session key, a daily copy of your top artists and tracks, genre tags for your artists, and any scrobbles waiting to be sent.</li>
+  <li><strong>Your settings and activity in Ola:</strong> your queue, likes made in Ola, saved picks, themes, layout, mode names and other preferences.</li>
+  <li><strong>Your area for concerts, if you enter it:</strong> the city, region and countries you type in. These are not sent anywhere.</li>
+</ul>
+<p>If you turn on the light sensor option, readings are used on your device to pick light or dark mode and are never stored or sent.</p>
+
+<h2>What Ola gets from TIDAL</h2>
+<p>When you sign in, TIDAL asks you to approve the permissions Ola requests. With your approval, Ola reads your username and country, your liked tracks, saved albums, followed artists and playlists, searches TIDAL's catalogue, and plays music through TIDAL's official player. Ola uses this only to show you your music and play it, inside Ola.</p>
+
+<h2>Who Ola sends data to</h2>
+<ul>
+  <li><strong>TIDAL:</strong> sign-in, library, search and playback requests go directly from your browser to TIDAL. TIDAL's own <a href="https://tidal.com/privacy" target="_blank" rel="noopener">privacy notice</a> applies to that data.</li>
+  <li><strong>Last.fm, only if you connect it:</strong> requests to read your listening history and build picks, and, only if you switch on "Send scrobbles to Last.fm", the songs you play. Last.fm's <a href="https://www.last.fm/legal/privacy" target="_blank" rel="noopener">privacy policy</a> applies.</li>
+  <li><strong>GitHub Pages</strong>, which hosts Ola, may log technical information such as your IP address when the page loads, under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub's privacy statement</a>.</li>
+  <li><strong>Google Fonts and jsDelivr</strong> supply Ola's font and TIDAL's player code. Like any website they load from, they receive your IP address and browser details.</li>
+</ul>
+<p>Ola never sells, rents or shares your data for advertising, never uses TIDAL content with artificial intelligence services, and never contacts you.</p>
+
+<h2>How long data is kept</h2>
+<ul>
+  <li>Cached TIDAL library data: up to 30 days, or until you sign out.</li>
+  <li>Last.fm history copies: refreshed daily. Genre tags: up to 30 days.</li>
+  <li>Everything else: until you delete it, as described below.</li>
+</ul>
+
+<h2>Your choices and how to delete your data</h2>
+<ul>
+  <li><strong>Sign out of TIDAL</strong> in Settings &gt; Tidal account. This deletes your TIDAL tokens and cached library from your device.</li>
+  <li><strong>Disconnect Last.fm</strong> in Settings &gt; Last.fm.</li>
+  <li><strong>Delete everything</strong> with Settings &gt; Reset &gt; "Delete all my data", or clear this site's data in your browser settings.</li>
+  <li><strong>Revoke access at the source:</strong> you can remove Ola's access from your TIDAL account settings and from Last.fm's connected applications page at any time.</li>
+</ul>
+<p>Because Ola has no server, there is no copy of your data held anywhere else by Ola. If you have questions, contact [your email address].</p>
+
+<h2>Changes</h2>
+<p>If this notice changes, the date at the top will be updated.</p>
+</main>
+</body>
+</html>
